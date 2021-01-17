@@ -1,0 +1,385 @@
+
+p{
+  font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 2em !important;
+
+}
+
+.cabezote{
+  position: fixed;
+  width: 100%;
+  height: 22%;
+  z-index: 5000;
+}
+nav{
+  background: #0000003d !important;
+
+}
+.por{
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.porta{
+  width: 100%;
+  margin-top: -5%;
+
+}
+
+.fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url(imagenes/cogollo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-filter: grayscale(90%);
+   filter: grayscale(90%);
+}
+.fondo:hover{
+  -webkit-filter: grayscale(1%);
+   filter: grayscale(1%);
+   -webkit-transition: all .9s ease;
+   -o-transition: all .9s ease;
+   transition: all .9s ease
+}
+.fondo p{
+  font-size: 1.5em;
+  color: black;
+}
+.logi{
+  width: 15%;
+}
+.logito{
+  margin: 3px;
+  width: 8%;
+
+}
+
+.marcas{
+  width: 50%;
+}
+.semillas{
+  width:  80%;
+}
+.blunts{
+  width: 20%;
+}
+.cueros{
+  height: 100%;
+}
+.galeriaMarcas{
+  display: inline-flex;
+}
+.cate1{
+  height: 250px;
+  overflow: hidden;
+
+
+}
+.cate1:hover{
+  background: white !important;
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+}
+.cate2{
+  height: 300px;
+  overflow: hidden;
+
+}
+.cate2:hover{
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+}
+.card{
+  background: #ffffffab !important;
+}
+
+
+.card-action{
+  background: #66282a !important;
+}
+.card-image{
+  height: 250px !important;
+  overflow: hidden !important;
+}
+.card-content{
+  height: 70px !important;
+  background: #ebad3e !important;
+}
+
+
+.cajon{
+  margin-top: -1%;
+}
+.titular{
+  width: 100%;
+  height: 50px;
+  background: #66282a;
+  bottom: 0;
+
+}
+.ros{
+  background: #ebad3e !important;
+}
+.caja1{
+  width: 100%;
+  height: 600px;
+}
+.interior1{
+  height: 350px;
+  margin-top: 1%;
+  margin-right: 10%;
+
+}
+.interior2{
+  height: 350px;
+  margin-top: 1%;
+  margin-left:  10% !important;
+
+}
+
+
+.product{
+  width: 120%;
+}
+.slider .indicators .indicator-item.active {
+    background: #ebad3e !important
+}
+.pie{
+  width: 150px;
+}
+
+.base{
+  width: 10%;
+}
+
+
+.pagina {
+    font-family: arial;
+    position: relative;
+    bottom: 0;
+    background: 0 0
+}
+
+.modalio{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  position:absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  animation: modalio 1s 2s forwards;
+
+  visibility: hidden;
+  opacity: 0;
+}
+.contenido{
+  margin: auto;
+  width: 40%;
+  height: 40%;
+  background: white;
+  border-radius: 10px;
+}
+#cerrar{
+  display: none;
+}
+
+
+#cerrar + label {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  z-index: 50;
+  background: darkred;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+
+
+  animation: modalio 1s 2s forwards;
+  visibility: hidden;
+  opacity: 0;
+
+}
+#cerrar:checked + label, #cerrar:checked ~ .modalio {
+  display: none;
+}
+
+@keyframes modalio {
+  100% {
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+}
+.moda{
+  width: 20%;
+}
+.aviso{
+  width: 100%;
+  position: fixed;
+}
+.contacto{
+  display: grid;
+
+}
+.menu {
+    position: relative
+}
+div.social {
+   left: 7px;
+    top: 50%;
+    position: fixed;
+    z-index: 8000;
+    color: #fff;
+}
+.modal-content{
+  background-image: url(imagenes/cogollo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-filter: hue-rotate(195deg);
+  filter: hue-rotate(195deg);
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+
+}
+.modal-content li{
+  font-size: 2em;
+
+
+}
+.tito{
+  font-size: 3em !important;
+
+
+}
+.modal-content:hover{
+  -webkit-filter: none;
+  filter: none;
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+
+}
+.pulso{
+  background: #ebad3e !important;
+}
+.select-wrapper input.select-dropdown{
+  border-bottom: 1px solid #ebad3e !important;
+}
+.promo2{
+  display: inline-flex;
+  height: 500px;
+}
+.promo3{
+  background: #ebad3e;
+}
+.promo4{
+  display: inline-flex;
+  height: 500px;
+
+}
+.promo5{
+  background: #66282a;
+}
+.rick{
+
+  background-image: url(imagenes/rick1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+
+}
+.rick:hover{
+  background-image: url(imagenes/rick2.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+
+}
+.gpen{
+
+  background-image: url(imagenes/gpen1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+
+}
+.gpen:hover{
+  background-image: url(imagenes/gpen2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  transition: all .9s ease
+
+}
+.producto{
+  width: 350px;
+}
+.producto2{
+  height:  350px;
+}
+.compra{
+  margin-left: 15%;
+  width: 400px;
+}
+
+.comprita{
+  margin-left: 10%;
+  width: 100px;
+}
+.products{
+  display: inline-flex;
+}
+.pequeño{
+  width: 200px;
+}
+.pro{
+  border-top: solid 2px black;
+}
+
+@media (max-width:950px) {
+
+  .por{
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .nav-wrapper{
+    background: black;
+  }
+  .logito{
+   display: none;
+  }
+  .contenido{
+
+    width: 100%;
+      height: 60%;
+
+  }
+
+
+    }

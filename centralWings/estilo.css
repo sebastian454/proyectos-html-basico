@@ -1,0 +1,609 @@
+
+   *{
+     font-family: Grotters ;
+   }
+   li{
+     font-family: a love of thunder ;
+   }
+   body{
+       font-family: a love of thunder ;
+
+   }
+
+   p{
+     font-family: a love of thunder ;
+   }
+   h1{
+     font-family: Grotters;
+     font-size: 2em !important;
+
+   }
+
+   .cabezote{
+     position: fixed;
+     width: 100%;
+     z-index: 4000;
+     top: 0;
+   }
+   .list{
+     width: 100%;
+
+   }
+   nav{
+     background: #0000003d !important;
+   }
+   .por{
+     width: 100%;
+     height: 520px;
+     overflow: hidden;
+   }
+   .por2{
+     width: 100%;
+     height: 450px;
+     overflow: hidden;
+   }
+   .porta{
+     width: 100%;
+     margin-top: -15%;
+
+   }
+
+   .porta2{
+     width: 90%;
+     margin-top: 1%;
+
+
+   }
+
+      .porta3{
+        width: 90%;
+        margin-top: -10%;
+
+
+      }
+
+
+   .fondo{
+     width: 100%;
+     height: 100%;
+     background-image: url(imagenes/fondo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+
+   }
+   .metro{
+     background-image: url(imagenes/metro.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+     -webkit-filter: hue-rotate(330deg);
+     filter: hue-rotate(330deg);
+     -webkit-transition: all .4s ease;
+     -o-transition: all .4s ease;
+     transition: all .4s ease
+
+   }
+   .metro:hover{
+     -webkit-filter: hue-rotate(320deg);
+     filter: hue-rotate(320deg);
+      -webkit-transition: all .9s ease;
+      -o-transition: all .9s ease;
+      transition: all .9s ease
+   }
+
+
+   }
+   .fondo:hover{
+     -webkit-filter: grayscale(1%);
+      filter: grayscale(1%);
+      -webkit-transition: all .9s ease;
+      -o-transition: all .9s ease;
+      transition: all .9s ease
+   }
+   .fondo p{
+     font-size: 1.5em;
+     color: black;
+   }
+   .logi{
+     width: 25%;
+   }
+   .logito{
+     margin: 3px;
+     width: 8%;
+
+   }
+
+   .marcas{
+     width: 50%;
+   }
+   .semillas{
+     width:  80%;
+   }
+   .blunts{
+     width: 20%;
+   }
+   .cueros{
+     height: 100%;
+   }
+   .galeriaMarcas{
+     display: inline-flex;
+   }
+   .cate1{
+     height: 250px;
+     overflow: hidden;
+
+
+   }
+   .cate1:hover{
+     background: white !important;
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+   }
+   .cate2{
+     height: 300px;
+     overflow: hidden;
+
+   }
+   .cate2:hover{
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+   }
+   .card{
+     background: #ffffffab !important;
+   }
+
+
+   .card-action{
+     background: #66282a !important;
+     font-size: 2em;
+     color: white;
+   }
+   .card-image{
+     width: 100%;
+     overflow: hidden !important;
+   }
+   .card-content{
+
+     background: #ebad3e !important;
+   }
+
+
+   .cajon{
+     margin-top: -1%;
+   }
+   .titular{
+     width: 100%;
+     height: 50px;
+     background: #66282a;
+     bottom: 0;
+
+   }
+   .ros{
+     background: #fc1121 !important;
+   }
+
+   .caja1{
+     width: 100%;
+     height: 600px;
+
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+   }
+
+   .interior1{
+     height: 20%;
+     margin: auto !important;
+
+
+   }
+   .interior2{
+     height: 300px;
+     margin-top: 1%;
+     margin-left:  10% !important;
+
+   }
+   .product2{
+     margin-left: 10%;
+     width: 300%;
+   }
+
+
+   .product{
+     width: 120%;
+   }
+   .slider .slides {
+     background-color: white !important;
+  }
+.slider .slides li img {
+  background-size: contain !important;
+  background-repeat: no-repeat  !important;
+  }
+   .slider .indicators .indicator-item.active {
+       background: #ebad3e !important
+   }
+   .pie{
+     width: 150px;
+   }
+
+   .base{
+     width: 10%;
+   }
+   .base5{
+     float: right;
+     width: 5%;
+     margin: 5px;
+
+   }
+      .pagina {
+       font-family: arial;
+       position: relative;
+       bottom: 0;
+       background: 0 0
+   }
+
+   .modalio{
+     width: 100%;
+     height: 100vh;
+     background: rgba(0,0,0,0.9);
+     position:absolute;
+     top: 0;
+     left: 0;
+     display: flex;
+     animation: modalio 1s 2s forwards;
+     visibility: hidden;
+     opacity: 0;
+     z-index: 10500;
+   }
+   .contenido{
+     margin: auto;
+     width: 40%;
+     height: 40%;
+     background: white;
+     border-radius: 10px;
+   }
+   #cerrar{
+     display: none;
+   }
+   #cerrar + label {
+     position: absolute;
+     color: #fff;
+     font-size: 25px;
+     z-index: 50;
+     background: darkred;
+     height: 40px;
+     width: 40px;
+     line-height: 40px;
+     border-radius: 50%;
+     right: 10px;
+     cursor: pointer;
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease;
+     animation: modalio 1s 2s forwards;
+     visibility: hidden;
+     opacity: 0;
+
+   }
+   #cerrar:checked + label, #cerrar:checked ~ .modalio {
+     display: none;
+   }
+
+   @keyframes modalio {
+     100% {
+       visibility: visible;
+       opacity: 1;
+
+     }
+
+   }
+   .moda{
+     width: 20%;
+   }
+   .aviso{
+     width: 100%;
+     position: fixed;
+   }
+   .contacto{
+     display: grid;
+
+   }
+   .menu2 {
+     width: 100%;
+     height: 380px;
+   }
+   div.social {
+      left: 7px;
+       top: 50%;
+       position: fixed;
+       z-index: 8000;
+       color: #fff;
+   }
+
+   .modal-content li{
+     font-size: 2em;
+
+
+   }
+   .tito{
+     font-size: 3em !important;
+
+
+   }
+   .modal-content:hover{
+     -webkit-filter: none;
+     filter: none;
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+
+   }
+   .pulso{
+     background: #fc1121 !important;
+   }
+   .select-wrapper input.select-dropdown{
+     border-bottom: 1px solid #ebad3e !important;
+   }
+   .promo2{
+     display: inline-flex;
+     height: 500px;
+   }
+   .promo3{
+     background: #ebad3e;
+   }
+   .promo4{
+     display: inline-flex;
+     height: 500px;
+
+   }
+   .promo5{
+     background: #66282a;
+   }
+   .rick{
+     background-image: url(imagenes/rick1.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position:center;
+
+   }
+   .rick:hover{
+     background-image: url(imagenes/rick2.webp);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position:center;
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+
+   }
+   .gpen{
+
+     background-image: url(imagenes/gpen1.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position:center;
+
+   }
+   .gpen:hover{
+     background-image: url(imagenes/gpen2.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position:center;
+     -webkit-transition: all .9s ease;
+     -o-transition: all .9s ease;
+     transition: all .9s ease
+
+   }
+   .producto{
+     width: 350px;
+   }
+   .producto:hover{
+     background: black !important;
+   }
+   .producto2{
+     height:  350px;
+   }
+   .compra{
+     margin-left: 15%;
+     width: 400px;
+   }
+
+   .comprita{
+     margin-left: 10%;
+     width: 100px;
+   }
+   .products{
+     display: inline-flex;
+   }
+   .pequeño{
+     width: 200px;
+   }
+   .pro{
+     border-top: solid 2px black;
+   }
+   .mostaza{
+     background: #fc1121 !important;
+   }
+   .vinotinto{
+     background: #fc1121 !important;
+   }
+
+
+   .flickr_pagination {
+
+     justify-content: center;
+     text-align: center;
+     padding: 0.3em;
+     cursor: default; }
+
+   .flickr_pagination a, .flickr_pagination span, .flickr_pagination em {
+     padding: 0.2em 0.5em; }
+
+   .flickr_pagination .disabled{
+     color: #aaaaaa;
+   }
+   .flickr_pagination .current{
+     font-style: normal;
+     font-weight: bold;
+     color: #0063dc;
+     text-decoration: none;
+
+   }
+   .flickr_pagination a:hover, .flickr_pagination a:focus{
+     border-color: #003366;
+     background: #0063dc;
+     color: white;
+   }
+   .flickr_pagination .page_info{
+     color: #aaaaaa;
+     padding-top: 0.8em;
+   }
+   .flickr_pagination .previous_page, .flickr_pagination .next_page {
+     border-width: 2px;
+   }
+   .flickr_pagination .previous_page{
+     margin-right: 1em;
+   }
+   .flickr_pagination .next_page {
+     margin-left: 1em;
+   }
+
+   .cuerpo{
+     background-image: url(/imagenes/fondo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+
+   }
+   .wings{
+     background: #fc1121 !important;
+   }
+   .expli{
+     font-family: arial ;
+   }
+   .carousel .carousel-item > img {
+    width: 200% !important;
+    margin-top: -50%;
+}
+
+  .pane{
+    display: inline-flex;
+  }
+  .pane li{
+    margin: 15px;
+  }
+  .cajonBusqueda{
+    background: white !important;
+  }
+
+  .pie{
+    width: 150px;
+  }
+  .base2{
+    width: 50px;
+  }
+
+  .pagina {
+      font-family: arial;
+      position: static;
+      bottom: 0 !important;
+      margin-top: 2%;
+    }
+
+    .portad{
+      margin: auto;
+      width: 70%;
+      max-height: 450px;
+    }
+    .num{
+
+      font-family: verdana;
+    }
+    .menu{
+      width: 100%;
+    }
+    .men{
+      font-size: 2em;
+    }
+    .titula{
+      font-size: 3em !important;
+    }
+
+    .titula:hover{
+      font-size: 4em !important;
+      color: #fc1121 !important;
+      -webkit-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease
+
+
+    }
+
+    .redex{
+      width: 50px;
+    }
+
+
+
+   @media (max-width:950px) {
+
+     .carousel .carousel-item > img {
+      width: 135% !important;
+      margin-top: -15%;
+      margin: auto;
+  }
+
+     .menu2 {
+       width: 100%;
+       height: 250px;
+     }
+     .card-image{
+       width: 100%;
+
+
+       overflow: hidden !important;
+     }
+     .base5{
+       float: none !important;
+       width: 50%;
+       margin-left: 25%;
+
+
+
+
+     }
+     .base{
+       width: 50%;
+     }
+
+     .interior2{
+       margin-left:  -1% !important;
+     }
+     .product2{
+       margin-top: 15%;
+       margin-left: 1%;
+       width: 100%;
+     }
+
+
+     .por{
+       margin-top: 0%;
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+     }
+     .logito{
+      display: none;
+     }
+     .contenido{
+
+       width: 100%;
+         height: 60%;
+
+     }
+
+
+       }

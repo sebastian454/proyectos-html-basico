@@ -1,0 +1,31 @@
+.por{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+.porta{
+  width: 100% !important;
+  filter: grayscale(60%);
+}
+.iconaso{
+  width: 30%;
+}
+.carta{
+  height: 250px;
+}
+.contacto{
+  width: 1300px;
+  height: 250px;
+  overflow: hidden;
+}
+.contenidov{
+  margin-top: 1%;
+  z-index: 500;
+  display: block;
+}
+.libro{
+    filter: grayscale(60%);
+}
+.libro:hover{
+  filter: none;
+}

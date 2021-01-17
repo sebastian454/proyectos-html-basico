@@ -1,0 +1,9 @@
+.contenedor{
+  width: 100%;
+}
+.contenedor video{
+  width: 50%;
+  margin: auto;
+  margin-left: 25%;
+  
+}

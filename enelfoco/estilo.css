@@ -1,0 +1,33 @@
+body{
+  background: #212121 !important;
+}
+
+.indicator-item.active{
+  background: red !important;
+}
+.indicator-item{
+  background: gray !important;
+}
+.inicio{
+  position: fixed !important;
+}
+.cabeza{
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+.carru{
+  margin-top: 5%;
+}
+.conte{
+  height: 350px !important;
+}
+.venta{
+  width: 500px;
+}
+.card p {
+  font-size: 1.3em;
+}
+.soco{
+  height: 550px !important;
+}

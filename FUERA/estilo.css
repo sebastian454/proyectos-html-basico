@@ -1,0 +1,15 @@
+
+.porta{
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+@media (max-width:850px) {
+  .porta{
+    width: 90%;
+    margin-left: 5%;
+
+  }
+
+    }
